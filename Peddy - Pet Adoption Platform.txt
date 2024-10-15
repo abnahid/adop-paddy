@@ -1,0 +1,99 @@
+
+Required Tasks:
+-------------
+
+👉 1. Navbar
+- Logo & Button with Icon: 
+  - Implement the navbar as per the Figma design.✅
+  - The navbar should be responsive, including a mobile menu collapse on smaller screens. (Middle menu is not required). ✅
+
+👉 2. Banner Section
+- Background Image:
+  - Design a banner section with a background image, heading, paragraph, and "View More" button.✅
+  - When the button is clicked, it should scroll the user to the "Adopt Your Best Friend" section. ✅
+
+👉 3. Adopt Your Best Friend Section
+- Left Side:
+  - Display 4 dynamic categories, fetched from the API.✅
+  - Add a "Sort By Price" button on the right, subtitle on the left.✅
+  - Default view should show all pets with categories styled as per Figma.✅
+  - Clicking a category should show pets in that category using a grid layout.
+  - Show placeholders or messages for missing API values (e.g., breed or birthdate).✅
+  - Pet Cards:
+    - Display the following information: Image, Name, Breed, Birth Date, Gender, Price.✅
+    - Buttons: "Like", "Adopt", "Details". ✅
+
+- Right Side:
+  - Clicking the "Like" button should add the pet's thumbnail to the right-side grid.✅
+  - Use a 2-column layout for liked pet thumbnails. ✅
+
+👉 4. Modal Window
+- Details Button:
+  - When clicked, open a modal displaying all pet information, designed as per Figma.✅
+  - Include a close button to dismiss the modal. ✅
+
+👉 5. Footer
+- Design:
+  - Implement the footer as per Figma.✅
+  - Ensure it is responsive for different screen sizes. ✅
+
+👉 6. Responsive Design
+- Ensure the entire platform (navbar, banner, pet cards, modal, and footer) is responsive for Desktop, Tablet, and Mobile devices.✅
+- Use Tailwind CSS breakpoints for responsiveness. ✅
+
+👉 7. Loading Spinner
+- Loading Indicator:
+  - Show a loading spinner for at least 2 seconds while fetching data from the API.   ✅
+
+👉 8. Sort by Price
+- Sorting Functionality:
+  - Implement sorting functionality. Clicking "Sort by Price" should sort pets in descending order.
+  - Sorting on an active category is recommended, but sorting all pets will get full marks. 
+
+👉 9. Adopt Button Behavior
+- Countdown:
+  - Clicking the "Adopt" button should start a countdown (3, 2, 1).✅
+  - After the countdown, change the button text to "Adopted." ✅
+
+👉 10. Handle Null or Undefined Values
+- If any API value is missing (e.g., breed or birthdate), show a placeholder or relevant message instead of leaving it blank. ✅
+
+👉 11. README.md File  ✅
+- Create a beautiful `README.md` file including:
+  - Project name.
+  - Short description of the project.
+  - Five key features.
+  - ES6 features used.
+  - Live link to the deployed project. 
+
+👉 Challenges:
+
+1. Coupon Code & Adoption Limitations:
+   - Implement coupon code usage for a pet category if a user is adopting 2+ pets.
+   - One adoption request per pet.
+   - Limit users to a maximum of 4 adoptions.
+   - Apply coupons based on specific names (e.g., "NEW50" or "ADOPT20").
+   - Show discounted prices below the total price.
+   - Hide input and apply buttons once the coupon is used.
+   - Display an alert if an invalid coupon is entered. 
+   
+2. User Experience Considerations:
+   - Responsive design for desktop and mobile.✅
+   - Use meaningful text, avoid "lorem ipsum."✅
+   - Use a CSS framework, such as Tailwind CSS, to streamline styling and responsiveness. ✅
+
+Questions to Address:
+1. Multiple Pet Adoption:
+   - Allow users to adopt multiple pets from a single category or multiple categories.
+2. Coupon Spacing Issue:
+   - Resolve spacing issues with coupon names like "ADOPT20".
+3. Display Grand Total Before Coupon Application:
+   - Should the grand total be displayed before or only after applying the coupon?
+
+Ensure the project meets all requirements for a successful submission. Good luck! 🚀
+✅
+
+https://github.com/programming-hero-web-course2/b10a6-pet-adoption-abnahid
+
+descending order
+modal
